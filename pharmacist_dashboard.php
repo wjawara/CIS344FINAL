@@ -16,10 +16,10 @@ if (!isset($_SESSION['userId']) || $_SESSION['userType'] !== 'pharmacist') {
     <a href="logout.php">Logout</a><br><br>
 
     <ul>
-        <li><a href="viewInventory.php">📦 View Medication Inventory</a></li>
-        <li><a href="addMedication.php">➕ Add New Medication</a></li>
-        <li><a href="addPrescription.php">💊 Assign Prescription to Patient</a></li>
-        <li><a href="processSale.php">💰 Process Sale</a></li>
+        <li><a href="viewInventory.php"> View Medication Inventory</a></li>
+        <li><a href="addMedication.php"> Add New Medication</a></li>
+        <li><a href="addPrescription.php"> Assign Prescription to Patient</a></li>
+        <li><a href="processSale.php"> Process Sale</a></li>
     </ul>
 </body>
 </html>
